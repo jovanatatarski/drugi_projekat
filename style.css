@@ -1,0 +1,303 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+.hero{
+  background-image: url("hero.jpg");
+  background-size: cover;
+  height: calc(100vh);
+  border-radius: 0;
+}
+#navFix{
+  background-color: white!important;
+  position: fixed; top: 0px; right: 0px;
+  z-index: 1;
+  width: 100%;
+  text-align: right;
+}
+.nav-position{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+#ham{
+  background-color: silver;
+}
+.link{
+  font-style: italic;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black !important;
+  font-size: 30px;
+}
+.link:hover{
+  color: grey!important;
+}
+#id, #id1, #id2, #id3{
+  padding: 20px 10px 20px 30px;
+}
+.position-header{
+  position: absolute; left: 10px; top: 50px;
+}
+.header-h1{
+  color: white;
+  font-size: 66px;
+  font-weight: 600;
+}
+.text{
+  position: absolute; top: 400px;  right: 80px;
+}
+#ghost, #dugme{
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 15px 50px;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: none !important;
+}
+#ghost:hover{
+  background-color: white;
+  color: black;
+}
+#dugme{
+  z-index: 1;
+  position: relative; bottom: 100px; left: 30px;
+}
+#dugme:hover{
+  background-color: white;
+  color: black;
+}
+.dimenzije{
+  width: 600px;
+  height: 600px;
+}
+.zajedno h3{
+  font-size: 35px;
+}
+.zajedno p{
+  font-size: 25px;
+  margin-top: 25px;
+  margin-right: 25px;
+  text-align: justify;
+}
+.zajedno h3,p{
+  font-style: italic;
+  font-weight: 600;
+}
+.zajedno{
+  margin-top: 50px;
+}
+.red{
+  margin-top: 30px;
+}
+.kartica{
+  margin-bottom: 30px;
+}
+.div{
+  background-color: rgb(7, 82, 168);
+}
+.paragraf{
+  text-align: center;
+  padding: 10px 40px 30px 40px;
+}
+.card-naslov, .card-tekst {
+  font-style: italic;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+.card-naslov{
+  font-size: 30px;
+}
+.card-tekst{
+  margin-top: 30px;
+}
+.futer{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#copyright{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+/*dagadjaji*/
+.hero-image{
+  background-image: url('crveni_mefisto.jpg');
+  background-size: cover;
+  height: calc(100vh);
+  border-radius: 0;
+}
+.heading{
+  background-color:  rgb(7, 82, 168);
+  height: 100px;
+  margin-top: -35px;
+}
+.kol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading h1{
+  color: white;
+}
+.prvi-red{
+  margin-top: 50px;
+}
+.mefisto{
+  background-image: url('mefisto.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vh;
+}
+.festival{
+  background-image: url('festival.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vh;
+}
+.dzez{
+  background-image: url('dzez.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50vh;
+}
+.pasus, .naslov-h1{
+  margin: 50px 50px;
+  text-align: justify;
+  font-size: 25px;
+  font-style: italic;
+}
+.naslov-h1{
+  font-size: 30px;
+}
+/*ISTORIJA*/
+.first-row{
+  margin-top: 110px;
+}
+.second-row{
+  margin-top: 80px;
+}
+.pasus-novi, .naslov-h1-novi{
+  margin: 50px;
+  margin-top: 65px;
+  margin-left: 30px;
+  text-align: justify;
+  font-size: 25px;
+  font-style: italic;
+}
+.naslov-h1-novi{
+  font-size: 50px;
+}
+.novi-sad{
+  background-image: url('novi-sad.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50vh;
+}
+.centar{
+  background-image: url('centar.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50vh;
+}
+.blue-color{
+  background-color: rgb(7, 82, 168);
+  color: white;
+  padding-bottom: 20px;
+  margin: 100px 0px 100px 0px;
+}
+.djava{
+  background-image: url('images.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vh;
+  margin: 20px 80px;
+}
+.images{
+  background-image: url('sat.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vh;
+  margin: 20px 80px;
+}
+/*info*/
+.row-blue{
+  background-color: rgb(7, 82, 168);
+  color: white;
+  margin-top: 20px;
+}
+.kontakt_stranica{
+  margin-top: 100px;
+  text-align: center;
+}
+.kontakt_stranica1{
+  margin-top: 30px;
+  text-align: center;
+}
+.tekst-prvi-red p{
+  margin: 60px;
+  font-style: normal;
+  text-align: justify;
+  font-size: 20px;
+}
+form{
+  padding: 50px;
+  padding-top: 10px;
+}
+form p{
+  font-size: 25px;
+  margin: 25px 0px 0px 0px;
+  font-style: normal;
+}
+input{
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 40px;
+  width: 450px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+input:hover{
+  border: 1px solid white;
+}
+textarea{
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 20px 50px 0;
+}
+textarea:hover{
+  border: 1px solid white;
+}
+.dugme-forma{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  color: black!important;
+  background-color: white!important;
+  border: 1px solid black!important;
+  border-radius: 20px!important;
+  display: block;
+  margin: 30px 0 20px 0px;
+  transition: 0.3s ease!important;
+}
+.dugme-forma:hover{
+  background-color: black!important;
+  color: white!important;
+}
+.iframe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.modal-boja{
+  color: black;
+}
